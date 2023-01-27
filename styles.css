@@ -191,5 +191,35 @@ display: flex;
         
     }
 
+    .paralaxe1 {
+        background-color: #151111;
+        background-image: url(/imagens/img_banner.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        padding-top: 16vh;
+        padding-bottom: 16vh;
+        background-attachment: fixed;
+    
+    
+        
+    }
+    
+    .paralaxe2 {
+        background-color: #151111;
+        background-image: url(/imagens/img_banner.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        padding-top: 16vh;
+        padding-bottom: 16vh;
+        background-attachment: fixed;
+    
+    
+        
+    }
+
 
 }
