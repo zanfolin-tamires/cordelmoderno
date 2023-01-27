@@ -1,0 +1,187 @@
+@charset "UTF-8"
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+:root {
+    --backgroundcolor: #F7F7F7;
+    --bannercolor: #DDD8BE;
+    --textcolor: #151111; 
+    --primaryfont: 'Inter', sans-serif;
+    --titlefont: 'Markazi Text', serif;
+    --hovercolor: #847215;
+    --primarycolor: #DDD8BE;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+html,body {
+   
+    background-color: var(--backgroundcolor);
+    overflow-x: hidden;
+}
+
+
+
+.cabecalho {
+    background-image: url(/imagens/bg.png);
+    background-size: cover;
+    width:100vw;
+    height: 648px ;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+    
+}
+
+.cabecalho__conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cabecalho__conteudo > h1 {
+    font-size: 80px ;
+    font-family:'Markazi Text', serif;
+    color: var(--textcolor);
+    margin: 16px 0;
+}
+
+.cabecalho__conteudo > p {
+    color:var(--textcolor);
+    font-family: "inter";
+    font-size: 32px ;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bolder;
+}
+
+header a:hover {
+    color: var(--hovercolor);
+}
+
+body {
+    background-color: var(--backgroundcolor);
+    font-family: "inter";
+    font-size: 24px;
+    line-height: 40px;
+}
+
+
+.dupla {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+   padding: 164px 0;
+
+   align-items: center;
+
+}
+
+.dupla > p, .doubletext {
+    margin: 56px;
+    display: flex;
+}
+
+.paralaxe1 {
+    background-color: #151111;
+    background-image: url(/imagens/img_banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding-top: 16vh;
+    padding-bottom: 16vh;
+    background-attachment: fixed;
+
+
+    
+}
+
+.paralaxe__texto__container {
+    display: flex;
+    width: 800px;
+   
+    margin: auto;
+    justify-content:end;
+}
+
+.paralaxe__texto {
+    color: var(--textcolor);
+    padding: 16px;
+   background-color: var(--primarycolor);
+    display: flex;
+    
+}
+
+
+
+
+
+.paralaxe2 {
+    background-color: #151111;
+    background-image: url(/imagens/img_banner2.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding-top: 16vh;
+    padding-bottom: 16vh;
+    background-attachment: fixed;
+
+}
+
+
+footer {
+    background-color: var(--primarycolor);
+    display: flex;
+    justify-content: center;
+    padding: 16px 0;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+
+footer a:hover {
+    color:#847215;
+}
+
+
+
+.imgmultiply {
+    mix-blend-mode: multiply;
+
+
+}
+
+
+@media screen and (max-width:580px) {
+
+    .paralaxe__texto__container {
+ 
+display: flex;
+       
+        margin: auto;
+        justify-content:center;
+    }
+
+
+
+
+}
