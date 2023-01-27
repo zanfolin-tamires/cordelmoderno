@@ -55,6 +55,7 @@ html,body {
     font-family:'Markazi Text', serif;
     color: var(--textcolor);
     margin: 16px 0;
+    text-align: center;
 }
 
 .cabecalho__conteudo > p {
@@ -62,6 +63,7 @@ html,body {
     font-family: "inter";
     font-size: 32px ;
     text-decoration: none;
+    text-align: center;
 }
 
 a {
@@ -181,7 +183,13 @@ display: flex;
         justify-content:center;
     }
 
-
+    .cabecalho__conteudo {
+        display: flex;
+        flex-direction: column;
+       
+        justify-content: center;
+        
+    }
 
 
 }
