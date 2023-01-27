@@ -55,6 +55,7 @@ html,body {
     font-family:'Markazi Text', serif;
     color: var(--textcolor);
     margin: 16px 0;
+    line-height: 90px ;
     text-align: center;
 }
 
@@ -142,6 +143,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    max-width: 100%;
+    min-width: 50%;
     padding-top: 16vh;
     padding-bottom: 16vh;
     background-attachment: fixed;
@@ -191,35 +194,7 @@ display: flex;
         
     }
 
-    .paralaxe1 {
-        background-color: #151111;
-        background-image: url(/imagens/img_banner.png);
-     
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        padding-top: 16vh;
-        padding-bottom: 16vh;
-        background-attachment: fixed;
-    
-    
-        
-    }
-    
-    .paralaxe2 {
-        background-color: #151111;
-        background-image: url(/imagens/img_banner.png);
-       
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        padding-top: 16vh;
-        padding-bottom: 16vh;
-        background-attachment: fixed;
-    
-    
-        
-    }
+  
 
 
 }
